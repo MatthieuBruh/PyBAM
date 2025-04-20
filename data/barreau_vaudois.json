@@ -1,0 +1,143 @@
+{
+    "start": "Q1",
+    "nodes": {
+        "Q1": {
+            "type": "question",
+            "text": "Je souhaite me présenter aux examens du barreau vaudois.",
+            "choices": {
+                "1": "Q2",
+                "2": "Q3",
+                "3": "Q4"
+            }
+        },
+        "Q2": {
+            "type": "question",
+            "text": "Je suis titulaire d'un Master en droit suisse délivré par SwissUniversities.",
+            "choices": {
+                "1": "Q2-1",
+                "2": "Q2-2"
+            }
+        },
+        "Q2-1": {
+            "type": "question",
+            "text": "J'ai déjà effectué avec succès un stage d'avocat.",
+            "choices": {
+                "1": "Q2-1-1",
+                "2": "Q2-1-2"
+            }
+        },
+        "Q2-1-1": {
+            "type": "question",
+            "text": "J'ai obtenu une attestation du maître de mon stage certifiant mon inscription au registre des avocats-stagiaires et l'exercice au barreau deux ans au moins.",
+            "choices": {
+                "1" : "Q2-1-1-1",
+                "2" : "Q2-1-1-2"
+            }
+        },
+        "Q2-1-1-1": {
+            "type": "question",
+            "text": "Je possède une attestation certifiant la réussite du cours de 'Droit et éthique de la profession d'avocat' ou un cours équivalent effectué à Fribourg, Neuchâtel ou Genève.",
+            "choices" : {
+                "1" : "Q2-1-1-RS"
+            }
+        },
+        "Q2-1-1-RS": {
+            "type": "result",
+            "text": "Vous êtes éligible au barreau vaudois! BRAVO!"
+        },
+        "Q2-1-1-2": {
+            "type": "question",
+            "text": "Je ne possède pas d'attestation de stage certifiant la réussite du cours de 'Droit et éthique de la profession d'avocat'.",
+            "choices" : {
+                "1" : "Q2-1-1-2-1",
+                "2" : "Q2-1-1-2-2"
+            }
+        },
+        "Q2-1-1-2-1": {
+            "type": "question",
+            "text": "Je n'ai pas encore suivi le cours.",
+            "choices" : {
+                "1" : "Q2-1-1-2-1-RS"
+            }
+        },
+        "Q2-1-1-2-1-RS": {
+            "type": "result",
+            "text": "Il est possible de suivre ce cours en plan libre de Master de Droit. \nVeuillez contacter l'école de Droit de l'Université de Lausanne pour de plus amples informations. \naffaires-etudiantes.droit@unil.ch \n+41 21 692 27 66"
+        },
+        "Q2-1-1-2-2": {
+            "type": "question",
+            "text": "Je n'ai pas réussi ce cours.",
+            "choices" : {
+                "1" : "Q2-1-1-2-2-RS"
+            }
+        },
+        "Q2-1-1-2-2-RS": {
+            "type": "result",
+            "text": "En l'absence de cette attestation de réussite, votre demande d'inscription aux examens d'avocat est irrecevable. \nVeuillez vous renseigner sur les possibilités de rattrapages éventuels. \naffaires-etudiantes.droit@unil.ch"
+        },
+
+        "Q2-1-2": {
+            "type": "question",
+            "text": "Je n'ai pas obtenu d'attestation de mon maître de stage.",
+            "choices" : {
+                "1" : "Q2-1-2-RS"
+            }
+        },
+        "Q2-1-2-RS": {
+            "type": "result",
+            "text": "Il convient de contacter votre maître de stage, afin d'obtenir une attestation certifiant votre inscription au registre des avocats-stagiaires ainsi que l'exercice au barreau pendant au moins deux ans."
+        },
+        "Q2-2": {
+            "type": "question",
+            "text": "Je n'ai pas encore effectué un stage d'avocat.",
+            "choices": {
+                "1": "Q2-2-RS"
+            }
+        },
+        "Q2-2-RS": {
+            "type": "result",
+            "text": "Vous devez en premier lieu effectuer un stage d'avocat avant de pouvoir continuer le processus."
+        },
+        "Q3": {
+            "type": "question",
+            "text": "Je suis titulaire d'un Master en droit mais obtenu à l'étranger.",
+            "choices": {
+                "1": "Q3-RS"
+            }
+        },
+        "Q3-RS": {
+            "type": "result",
+            "text": "Le Tribunal Cantonal doit reconnaître l'équivalence du diplôme obtenu. Il est nécessaire d'envoyer par courrier postal votre Curriculum Vitae ainsi que vos diplômes obtenus à l'adresse suivante : \nTribunal Cantonal \nRoute du Signal 8 \n1014 Lausanne"
+        },
+        "Q4": {
+            "type": "question",
+            "text": "Je ne suis pas titulaire d'un Master en droit.",
+            "choices": {
+                "1": "Q4-1",
+                "2": "Q4-2"
+            }
+        },
+        "Q4-1": {
+            "type": "question",
+            "text": "J'ai un Master dans une autre branche.",
+            "choices": {
+                "1": "Q4-1-RS"
+            }
+        },
+        "Q4-1-RS": {
+            "type": "result",
+            "text": "Afin d'être admissible aux examens d'avocat, votre Master doit être jugé équivalent à une licence ou à un Bachelor universitaire en droit suisse délivré par une université suisse. Il convient de contacter la Commission des équivalences et de la mobilité de l'Ecole de Droit : direction.droit@unil.ch."
+        },
+        "Q4-2": {
+            "type": "question",
+            "text": "Je n'ai pas de Master.",
+            "choices": {
+                "1": "Q4-2-RS"
+            }
+        },
+        "Q4-2-RS": {
+            "type": "result",
+            "text": "L'obtention d'un Master est une condition obligatoire pour être admissible aux examens du barreau vaudois (art. 31 al.1 lit. a LPav)."
+        }
+    }
+}

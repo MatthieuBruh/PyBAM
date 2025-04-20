@@ -1,0 +1,177 @@
+{
+    "start": "Q1",
+    "nodes": {
+        "Q1": {
+            "type": "question",
+            "text": "Je souhaite obtenir une patente de notaire.",
+            "choices": {
+                "1": "Q2",
+                "2": "Q3"
+            }
+        },
+
+        "Q2": {
+            "type": "question",
+            "text": "Je possède la nationalité suisse.",
+            "choices": {
+                "1": "Q2-1",
+                "2": "Q2-2"
+            }
+        },
+        "Q2-1": {
+            "type": "question",
+            "text": "Je suis mineur, incapable de discernement ou sous curatelle.",
+            "choices": {
+                "1": "Q2-1-RS"
+            }
+        },
+        "Q2-1-RS": {
+            "type": "result",
+            "text": "Vous ne répondez malheureusement pas aux conditions posées par l'art. 17 LNo."
+        },
+        "Q2-2": {
+            "type": "question",
+            "text": "Je peux librement exercer mes droits civils.",
+            "choices": {
+                "1": "Q2-2-1",
+                "2": "Q2-2-2"
+            }
+        },
+        "Q2-2-1": {
+            "type": "question",
+            "text": "J'ai déjà fait l'objet de poursuites / de faillite au sens de la Loi sur les poursuites et faillite.",
+            "choices": {
+                "1": "Q2-2-1-RS"
+            }
+        },
+        "Q2-2-1-RS": {
+            "type": "result",
+            "text": "Si ces dernières ont abouti, vous ne répondez pas aux conditions de l'art. 17 LNo.Vous ne pouvez donc pas obtenir de patente. \nPour de plus amples informations, veuillez contacter directement la Chambre des notaires vaudoise : affaire-notariales@vd.ch"
+        },
+        "Q2-2-2": {
+            "type": "question",
+            "text": "J n'ai jamais fait l'objet de poursuites / de faillite au sens de la Loi sur les poursuites et faillite, ou ces dernières n'ont jamais abouti.",
+            "choices": {
+                "1": "Q2-2-2-1",
+                "2": "Q2-2-2-2"
+            }
+        },
+        "Q2-2-2-1": {
+            "type": "question",
+            "text": "Je n'ai jamais été condamné pénalement, ou pour des raisons qui ne relèvent pas de crimes ou de délits graves, notamment contre le patrimoine ou en constituant des faux dans les titres. \nPour des précisions supplémentaires, veuillez contacter la Chambre des notaires vaudoise : affaires-notariales@vd.ch",
+            "choices": {
+                "1": "Q2-2-2-1-1",
+                "2": "Q2-2-2-1-2"
+            }
+        },
+        "Q2-2-2-1-1": {
+            "type": "question",
+            "text": "J'ai contracté une assurance responsabilité civile d'une couverture de CHF 5'000'000.- au moins, avec une franchise de moins de CHF 10'000.- (art. 39 et 40 RLNo)",
+            "link" : "https://prestations.vd.ch/pub/blv-publication/#/actes/consolide/178.11.1?key=1745059731422&id=d20374c7-9bdf-4480-8882-597d56d5c6ab",
+            "choices": {
+                "1": "Q2-2-2-1-1-1",
+                "2": "Q2-2-2-1-1-2"
+            }
+        },
+        "Q2-2-2-1-1-1": {
+            "type": "question",
+            "text": "J'ai accompli mon stage de notariat et réussi mes examens au sens des art. 21, 22 et 23 LNo.",
+            "link" : "https://prestations.vd.ch/pub/blv-publication/#/actes/consolide/178.11?key=1745059870167&id=58f222d6-4993-495a-868c-c9b332436207",
+            "choices": {
+                "1": "Q2-2-2-1-1-1-1",
+                "2": "Q2-2-2-1-1-1-2"
+            }
+        },
+        "Q2-2-2-1-1-1-1": {
+            "type": "question",
+            "text": "J'ai reçu mon acte de capacité (art. 17 al. 1 ch. 3 LNo)",
+            "choices": {
+                "1": "Q2-2-2-1-1-1-1-1",
+                "2": "Q2-2-2-1-1-1-1-2"
+            }
+        },
+        "Q2-2-2-1-1-1-1-1": {
+            "type": "question",
+            "text": "J'ai déjà demandé et reçu ma patente de notaire.",
+            "choices": {
+                "1": "Q2-2-2-1-1-1-1-1-RS"
+            }
+        },
+        "Q2-2-2-1-1-1-1-1-RS": {
+            "type": "result",
+            "text": "Vous pouvez exercer la profession !"
+        },
+        "Q2-2-2-1-1-1-1-2": {
+            "type": "question",
+            "text": "Je n'ai pas encore reçu ma patente de notaire.",
+            "choices": {
+                "1": "Q2-2-2-1-1-1-1-2-RS"
+            }
+        },
+        "Q2-2-2-1-1-1-1-2-RS": {
+            "type": "result",
+            "text": "Il convient de la demander au Conseil d'Etat (art. 24 al.1 LNo). Attention, vous devrez payer un émolument de CHF 1'000.- (art. 15 RLNo)."
+        },
+        "Q2-2-2-1-1-1-2": {
+            "type": "question",
+            "text": "Je n'ai pas reçu mon acte de capacité (art. 17 al. 1 ch. 3 LNo)",
+            "choices": {
+                "1": "Q2-2-2-1-1-1-2-RS"
+            }
+        },
+        "Q2-2-2-1-1-1-2-RS": {
+            "type": "result",
+            "text": "Il convient de le demander à la commission des examens de fin de stage (art. 18 al. 2 cum art. 19 LNo)"
+        },
+        "Q2-2-2-1-1-2": {
+            "type": "question",
+            "text": "Je n'ai pas encore accompli mon stage de notariat ou je n'ai pas réussi mes examens au sens des art.s 21, 22 et 23 LNo.",
+            "choices": {
+                "1": "Q2-2-2-1-1-2-RS"
+            }
+        },
+        "Q2-2-2-1-1-2-RS": {
+            "type": "result",
+            "text": "Pour obtenir la délivrance de la patente de notaire, il est nécessaire de réaliser le stage défini aux art. 21ss LNo, ainsi que de réussir les examens de fin de stage.",
+            "link": "https://prestations.vd.ch/pub/blv-publication/#/actes/consolide/178.11?key=1745059870167&id=58f222d6-4993-495a-868c-c9b332436207"
+        },
+        "Q2-2-2-1-2": {
+            "type": "question",
+            "text": "Je n'ai pas contracté une assurance responsabilité civile avec une telle couverture.",
+            "choices": {
+                "1": "Q2-2-2-1-2-RS"
+            }
+        },
+        "Q2-2-2-1-2-RS": {
+            "type": "result",
+            "text": "Pour obtenir la patente de notaire, il faut avoir contracté une assurance responsabilité civile pour une couverture de CHF 5'000'000.- avec une franchise inférieur à CHF 10'000.- (art. 17 al. 1 ch.6 LNo cum art. 39ss RLNo)",
+            "link" : "https://prestations.vd.ch/pub/blv-publication/#/actes/consolide/178.11?key=1745059870167&id=58f222d6-4993-495a-868c-c9b332436207"
+        },
+
+
+        "Q2-2-2-2": {
+            "type": "question",
+            "text": "J'ai été condamné pénalement pour des crimes ou délits graves (homicides, vols de plus de 10'000CHF, infractions routières, infractions contre le patrimoine ou constituant des faux dans les titres.",
+            "choices": {
+                "1": "Q2-2-2-2-RS"
+            }
+        },
+        "Q2-2-2-2-RS": {
+            "type": "result",
+            "text": "Vous n'êtes pas éligible au sens de l'art. 17 LNo."
+        },
+
+
+        "Q3": {
+            "type": "question",
+            "text": "Je ne possède pas la nationalité suisse.",
+            "choices": {
+                "1": "Q3-1-RS"
+            }
+        },
+        "Q3-1-RS": {
+            "type": "result",
+            "text": "Vous devez posséder la nationalité suisse."
+        }
+    }
+}
