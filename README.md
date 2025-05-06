@@ -1,5 +1,7 @@
 # ⚖️ Projet – Aider les individus à comprendre les conditions d'admission et d'équivalences de l'UNIL
 
+![_J4SKcBjtzpkuJL3-3NJq](https://github.com/user-attachments/assets/25d5ba23-51d8-41c0-b486-2470da3e8552)
+
 ## Objectif du projet
 
 Notre projet vise à **automatiser l’évaluation** des **conditions d’admission** aux études de droit de l’Université de Lausanne (**UNIL**) et l’**accès aux professions juridiques** dans le canton de Vaud, notamment :
