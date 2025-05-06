@@ -8,7 +8,7 @@
 
 Notre projet vise à **automatiser l’évaluation** des **conditions d’admission** aux études de droit de l’Université de Lausanne (**UNIL**) et l’**accès aux professions juridiques** dans le canton de Vaud, notamment :
 - **L’examen du barreau vaudois**
-- **L'accès à la proffession de notaire**
+- **L'accès à la profession de notaire**
 
 Ces processus sont longs et fastidieux, et nécessite par conséquence une interprétation manuelle.  
 Nous avons conçu une **solution informatique** en Python pour **rationaliser ce processus**, le rendre **plus accessible** pour les candidats.
