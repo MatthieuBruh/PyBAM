@@ -1,6 +1,8 @@
 # ⚖️ Projet – Aider les individus à comprendre les conditions d'admission et d'équivalences de l'UNIL
 
-<img src="https://github.com/user-attachments/assets/25d5ba23-51d8-41c0-b486-2470da3e8552" alt="_J4SKcBjtzpkuJL3-3NJq" width="400"/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/25d5ba23-51d8-41c0-b486-2470da3e8552" alt="_J4SKcBjtzpkuJL3-3NJq" width="400"/>
+</div>
 
 ## Objectif du projet
 
