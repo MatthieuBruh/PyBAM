@@ -88,7 +88,7 @@ python main.py
 ---
 ## Tests utilisateurs
 Nous avons mené plusieurs tests de parcours simulés :
-- Des étudiants de la classe ont testé leur propre éligibilité aux deux solutions.
+- Des étudiants de la classe ainsi que des alumnis, ont testé leur propre éligibilité aux deux solutions.
 - La navigation intuitive a été validée.
 ---
 ## Améliorations futures 
