@@ -43,7 +43,7 @@
         },
         "Q2-1-1-RS": {
             "type": "result",
-            "text": "Vous êtes éligible au barreau vaudois! BRAVO!"
+            "text": "Vous êtes éligible au barreau vaudois!"
         },
         "Q2-1-1-2": {
             "type": "question",
@@ -85,7 +85,8 @@
         },
         "Q2-1-2-RS": {
             "type": "result",
-            "text": "Il convient de contacter votre maître de stage, afin d'obtenir une attestation certifiant votre inscription au registre des avocats-stagiaires ainsi que l'exercice au barreau pendant au moins deux ans."
+            "text": "Il convient de contacter votre maître de stage, afin d'obtenir une attestation certifiant votre inscription au registre des avocats-stagiaires ainsi que l'exercice au barreau pendant au moins deux ans. art. 32 al. 1 let. b LPAv",
+            "link" : "https://prestations.vd.ch/pub/blv-publication/actes/consolide/177.11?key=1543960175672&id=c376d796-48c5-499e-bb81-549558afdb63"
         },
         "Q2-2": {
             "type": "question",
@@ -107,7 +108,8 @@
         },
         "Q3-RS": {
             "type": "result",
-            "text": "Le Tribunal Cantonal doit reconnaître l'équivalence du diplôme obtenu. Il est nécessaire d'envoyer par courrier postal votre Curriculum Vitae ainsi que vos diplômes obtenus à l'adresse suivante : \nTribunal Cantonal \nRoute du Signal 8 \n1014 Lausanne"
+            "text": "Le Tribunal Cantonal doit reconnaître l'équivalence du diplôme obtenu. Il est nécessaire d'envoyer par courrier postal votre Curriculum Vitae ainsi que vos diplômes obtenus à l'adresse suivante : \nTribunal Cantonal \nRoute du Signal 8 \n1014 Lausanne. Art. 21 LPAv",
+            "link" : "https://prestations.vd.ch/pub/blv-publication/actes/consolide/177.11?key=1543960175672&id=c376d796-48c5-499e-bb81-549558afdb63"
         },
         "Q4": {
             "type": "question",
@@ -126,7 +128,8 @@
         },
         "Q4-1-RS": {
             "type": "result",
-            "text": "Afin d'être admissible aux examens d'avocat, votre Master doit être jugé équivalent à une licence ou à un Bachelor universitaire en droit suisse délivré par une université suisse. Il convient de contacter la Commission des équivalences et de la mobilité de l'Ecole de Droit : direction.droit@unil.ch."
+            "text": "Afin d'être admissible aux examens d'avocat, votre Master doit être jugé équivalent à une licence ou à un Bachelor universitaire en droit suisse délivré par une université suisse. Il convient de contacter la Commission des équivalences et de la mobilité de l'Ecole de Droit : direction.droit@unil.ch. Art. 21 LPAv",
+            "link" : "https://prestations.vd.ch/pub/blv-publication/actes/consolide/177.11?key=1543960175672&id=c376d796-48c5-499e-bb81-549558afdb63"
         },
         "Q4-2": {
             "type": "question",
@@ -137,7 +140,8 @@
         },
         "Q4-2-RS": {
             "type": "result",
-            "text": "L'obtention d'un Master est une condition obligatoire pour être admissible aux examens du barreau vaudois (art. 31 al.1 lit. a LPav)."
+            "text": "L'obtention d'un Master est une condition obligatoire pour être admissible aux examens du barreau vaudois (art. 31 al.1 lit. a LPav).",
+            "link" : "https://prestations.vd.ch/pub/blv-publication/actes/consolide/177.11?key=1543960175672&id=c376d796-48c5-499e-bb81-549558afdb63"
         }
     }
 }
