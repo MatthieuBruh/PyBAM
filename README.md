@@ -73,7 +73,11 @@ python main.py
 
 - Un **parcours dynamique** commence selon ses réponses.
 
-- À la fin, un **graphique interactif** (`result.html`) est généré pour visualiser son **chemin décisionnel**.
+- Des réponses sont accompagnées de **bases légales** afin de permettre à l'utilisateur d'avoir de plus amples informations.
+
+- A tout moment, l'utilisateur peut choisir d'afficher un **arbre décisionnel** interactif pour la catégorie choisie.
+
+- À la fin, une **liste des réponses** de l'utilisateur est disponible pour visualiser ses choix.
 
 ## Architecture du projet
 ```bash
