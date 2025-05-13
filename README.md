@@ -39,14 +39,14 @@ Nous avons combiné :
 La solution est construite autour de **3 composants principaux** :
 
 1. **Arbres de décision** (format JSON)
-   - `barreau_vaudois.json` : Pour l’admission au barreau.
-   - `notaire_vaudois.json` : Pour l’obtention de la patente de notaire.
+   - `barreau_vaudois.json` : Données pour l’admission au barreau.
+   - `notaire_vaudois.json` : Données pour l’obtention de la patente de notaire.
 
 2. **Code Python** (modules)
    - `tree.py` : Gestion de l’arbre de décision (nœuds questions/réponses).
    - `questions.py` : Module de dialogue pour guider l’utilisateur à travers les questions.
-   - `category.py` : Organisation thématique (Barreau vs Notariat).
-   - `main.py` : Lancement de l’application.
+   - `category.py` : Permet l'organisation thématique (Barreau vs Notariat).
+   - `main.py` : Gestion du lancement de l’application.
 
 3. **Visualisation**
    - Affichage interactif du chemin parcouru grâce à **Pyvis** (`.html` généré).
@@ -83,7 +83,7 @@ python main.py
 ├── category.py              # Gestion des catégories d'admission
 ├── barreau_vaudois.json     # Arbre décisionnel pour le barreau
 ├── notaire_vaudois.json     # Arbre décisionnel pour les notaires
-├── requirements.txt         # Dépendances Python
+├── requirements.txt         # Dépendances Python nécessaires au projet
 ```
 ---
 ## Tests utilisateurs
